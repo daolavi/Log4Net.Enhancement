@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{5D4DCC50-C279-4AF3-B64C-6634D302B2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Enhancement.Example", "Log4Net.Enhancement.Example\Log4Net.Enhancement.Example.csproj", "{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Hangouts", "Log4Net.Webhook.Hangouts\Log4Net.Webhook.Hangouts.csproj", "{98BD6ED8-A477-4931-9472-7484142CAC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Extensions", "Log4Net.Webhook.Extensions\Log4Net.Webhook.Extensions.csproj", "{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E} = {5D4DCC50-C279-4AF3-B64C-6634D302B2E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {577E3E4F-C780-4D2C-8648-A28EA8546C87}
+	EndGlobalSection
+EndGlobal
