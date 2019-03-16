@@ -5,13 +5,17 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{5D4DCC50-C279-4AF3-B64C-6634D302B2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Enhancement.Example", "Log4Net.Enhancement.Example\Log4Net.Enhancement.Example.csproj", "{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Webhook.Example", "Example\Log4Net.Webhook.Example\Log4Net.Webhook.Example.csproj", "{9D227C8F-7A29-4723-B9EA-2A9D50EF556E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Hangouts", "Log4Net.Webhook.Hangouts\Log4Net.Webhook.Hangouts.csproj", "{98BD6ED8-A477-4931-9472-7484142CAC1D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebHook", "WebHook", "{CC67B70D-150F-4679-9F5B-596738A711E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Extensions", "Log4Net.Webhook.Extensions\Log4Net.Webhook.Extensions.csproj", "{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Webhook.ElasticSearch", "Webhook\Log4Net.Webhook.ElasticSearch\Log4Net.Webhook.ElasticSearch.csproj", "{F1C16A0C-927C-4401-BA09-EE47054D99E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Slack", "Log4Net.Webhook.Slack\Log4Net.Webhook.Slack.csproj", "{73AB495E-BD5B-4637-985E-F875317E4BF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Webhook.Extensions", "Webhook\Log4Net.Webhook.Extensions\Log4Net.Webhook.Extensions.csproj", "{266460BA-E5F4-433C-B61E-B27EF4822E70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Webhook.Hangouts", "Webhook\Log4Net.Webhook.Hangouts\Log4Net.Webhook.Hangouts.csproj", "{A0474B13-C1E3-4F6F-86C4-C4520CEE25FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4Net.Webhook.Slack", "Webhook\Log4Net.Webhook.Slack\Log4Net.Webhook.Slack.csproj", "{5B379856-F225-4D01-A955-31919CC8E7D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,28 +23,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98BD6ED8-A477-4931-9472-7484142CAC1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D227C8F-7A29-4723-B9EA-2A9D50EF556E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D227C8F-7A29-4723-B9EA-2A9D50EF556E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D227C8F-7A29-4723-B9EA-2A9D50EF556E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D227C8F-7A29-4723-B9EA-2A9D50EF556E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C16A0C-927C-4401-BA09-EE47054D99E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C16A0C-927C-4401-BA09-EE47054D99E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C16A0C-927C-4401-BA09-EE47054D99E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C16A0C-927C-4401-BA09-EE47054D99E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266460BA-E5F4-433C-B61E-B27EF4822E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266460BA-E5F4-433C-B61E-B27EF4822E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266460BA-E5F4-433C-B61E-B27EF4822E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266460BA-E5F4-433C-B61E-B27EF4822E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0474B13-C1E3-4F6F-86C4-C4520CEE25FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0474B13-C1E3-4F6F-86C4-C4520CEE25FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0474B13-C1E3-4F6F-86C4-C4520CEE25FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0474B13-C1E3-4F6F-86C4-C4520CEE25FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B379856-F225-4D01-A955-31919CC8E7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B379856-F225-4D01-A955-31919CC8E7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B379856-F225-4D01-A955-31919CC8E7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B379856-F225-4D01-A955-31919CC8E7D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{120DF0F3-905D-4F6B-A3A6-1EDC74A4AE9E} = {5D4DCC50-C279-4AF3-B64C-6634D302B2E7}
+		{9D227C8F-7A29-4723-B9EA-2A9D50EF556E} = {5D4DCC50-C279-4AF3-B64C-6634D302B2E7}
+		{F1C16A0C-927C-4401-BA09-EE47054D99E1} = {CC67B70D-150F-4679-9F5B-596738A711E4}
+		{266460BA-E5F4-433C-B61E-B27EF4822E70} = {CC67B70D-150F-4679-9F5B-596738A711E4}
+		{A0474B13-C1E3-4F6F-86C4-C4520CEE25FB} = {CC67B70D-150F-4679-9F5B-596738A711E4}
+		{5B379856-F225-4D01-A955-31919CC8E7D4} = {CC67B70D-150F-4679-9F5B-596738A711E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {577E3E4F-C780-4D2C-8648-A28EA8546C87}

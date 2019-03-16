@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.Serialization.Json;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace Log4Net.Webhook.Extensions
@@ -27,16 +25,6 @@ namespace Log4Net.Webhook.Extensions
             {
                 layout.Format(writer, loggingEvent);
                 return writer.ToString();
-            }
-        }
-
-        public static string JsonSerializeObject(this object obj)
-        {
-            var serializer = new DataContractJsonSerializer(obj.GetType());
-            using (var stream = new MemoryStream())
-            {
-                serializer.WriteObject(stream, obj);
-                return Encoding.UTF8.GetString(stream.ToArray());
             }
         }
     }

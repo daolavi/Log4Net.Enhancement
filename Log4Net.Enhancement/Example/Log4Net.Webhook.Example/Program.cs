@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace Log4Net.Enhancement.Example
+namespace Log4Net.Webhook.Example
 {
     class Program
     {
