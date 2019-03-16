@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Hangouts", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Extensions", "Log4Net.Webhook.Extensions\Log4Net.Webhook.Extensions.csproj", "{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Webhook.Slack", "Log4Net.Webhook.Slack\Log4Net.Webhook.Slack.csproj", "{73AB495E-BD5B-4637-985E-F875317E4BF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C09E89-D234-4356-BBBF-9EC6F1BAF777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AB495E-BD5B-4637-985E-F875317E4BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

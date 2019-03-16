@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Log4Net.Webhook.Hangouts\Log4Net.Webhook.Hangouts.csproj" />
+    <ProjectReference Include="..\Log4Net.Webhook.Slack\Log4Net.Webhook.Slack.csproj" />
   </ItemGroup>
 
   <ItemGroup>
